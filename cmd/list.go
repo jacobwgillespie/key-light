@@ -73,5 +73,5 @@ var listCmd = &cobra.Command{
 func init() {
 	rootCmd.AddCommand(listCmd)
 	listCmd.Flags().StringP("timeout", "t", "5s", "Timeout for discovery")
-	toggleCmd.Flags().Int("expected", 0, "Expected number of lights to discover")
+	listCmd.Flags().Int("expected", 0, "Expected number of lights to discover")
 }
