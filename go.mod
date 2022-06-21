@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/endocrimes/keylight-go v0.0.0-20201110202118-a45c372ed336
 	github.com/logrusorgru/aurora/v3 v3.0.0
-	github.com/spf13/cobra v1.3.0
+	github.com/spf13/cobra v1.5.0
 )
 
 require (
